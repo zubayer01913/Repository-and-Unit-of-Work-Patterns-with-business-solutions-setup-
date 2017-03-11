@@ -1,0 +1,14 @@
+D:\project\TestRepository\Test.Core\bin\Debug\Test.Core.dll
+D:\project\TestRepository\Test.Core\bin\Debug\Test.Core.pdb
+D:\project\TestRepository\Test.Core\obj\Debug\Test.Core.csprojResolveAssemblyReference.cache
+D:\project\TestRepository\Test.Core\obj\Debug\Test.Core.dll
+D:\project\TestRepository\Test.Core\obj\Debug\Test.Core.pdb
+D:\project\TestRepository\Test.Core\bin\Debug\Test.Core.dll.config
+D:\project\TestRepository\Test.Core\bin\Debug\EntityFramework.dll
+D:\project\TestRepository\Test.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\project\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\project\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\project\TestRepository\Test.Core\bin\Debug\EntityFramework.xml
+D:\project\TestRepository\Test.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\project\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\project\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
