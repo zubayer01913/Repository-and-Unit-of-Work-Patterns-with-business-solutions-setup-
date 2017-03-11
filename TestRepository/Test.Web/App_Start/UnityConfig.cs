@@ -20,14 +20,21 @@ namespace Test.Web.App_Start
         {
             var container = new UnityContainer();
 
-            //var roasterManagementDataAssembly = AppDomain.CurrentDomain.GetAssemblies()
-            //    .First(a => a.FullName == "RoasterManagementSystem.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
+            var testDataAssembly = AppDomain.CurrentDomain.GetAssemblies()
+                .First(a => a.FullName == "Test.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
+
+            var serviceAssembly = AppDomain.CurrentDomain.GetAssemblies()
+               .First(a => a.FullName == "Test.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
 
             container.RegisterType<ApplicationDbContext>(new PerResolveLifetimeManager());
 
-            //container.RegisterTypes(roasterManagementDataAssembly.GetTypes(),
-            //    WithMappings.FromMatchingInterface,
-            //    WithName.Default);
+            container.RegisterTypes(testDataAssembly.GetTypes(),
+                WithMappings.FromMatchingInterface,
+                WithName.Default);
+
+            container.RegisterTypes(serviceAssembly.GetTypes(),
+                WithMappings.FromMatchingInterface,
+                WithName.Default);
 
             container.RegisterType<IAuthenticationManager>(
                 new InjectionFactory(c => HttpContext.Current.GetOwinContext().Authentication));

@@ -12,3 +12,17 @@ D:\project\TestRepository\Test.Core\bin\Debug\EntityFramework.xml
 D:\project\TestRepository\Test.Core\bin\Debug\EntityFramework.SqlServer.xml
 D:\project\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\project\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\Test.Core.dll.config
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\Test.Core.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\Test.Core.pdb
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\EntityFramework.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\EntityFramework.xml
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\obj\Debug\Test.Core.csprojResolveAssemblyReference.cache
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\obj\Debug\Test.Core.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Core\obj\Debug\Test.Core.pdb

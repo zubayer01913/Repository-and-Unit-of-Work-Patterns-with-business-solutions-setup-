@@ -1,0 +1,15 @@
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\obj\Debug\Test.Application.csprojResolveAssemblyReference.cache
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\obj\Debug\Test.Service.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\obj\Debug\Test.Service.pdb
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Test.Service.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Test.Service.pdb
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Test.Core.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Test.EntityFramework.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\EntityFramework.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Test.Core.pdb
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Test.EntityFramework.pdb
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Service\bin\Debug\EntityFramework.xml

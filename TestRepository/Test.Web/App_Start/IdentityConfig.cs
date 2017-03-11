@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Test.Core.Model;
-using Test.EntityFramework.DbContext;
+using Test.Web.ViewModels;
 
 namespace Test.Web
 {
