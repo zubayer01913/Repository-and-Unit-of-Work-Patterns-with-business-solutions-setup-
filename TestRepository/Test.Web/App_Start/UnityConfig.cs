@@ -11,6 +11,7 @@ using Test.Core.Model;
 using Test.EntityFramework.DbContext;
 using Test.Web.Models;
 using Unity.Mvc5;
+using Test.EntityFramework;
 
 namespace Test.Web.App_Start
 {
@@ -35,6 +36,9 @@ namespace Test.Web.App_Start
             container.RegisterTypes(serviceAssembly.GetTypes(),
                 WithMappings.FromMatchingInterface,
                 WithName.Default);
+
+            container.RegisterType<IUnitOfWork, UnitOfWork>();
+           //UnitOfWork myInstance = container.Resolve<UnitOfWork>();
 
             container.RegisterType<IAuthenticationManager>(
                 new InjectionFactory(c => HttpContext.Current.GetOwinContext().Authentication));
