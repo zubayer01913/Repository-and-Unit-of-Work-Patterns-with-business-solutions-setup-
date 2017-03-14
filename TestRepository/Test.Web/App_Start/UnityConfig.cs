@@ -12,6 +12,7 @@ using Test.EntityFramework.DbContext;
 using Test.Web.Models;
 using Unity.Mvc5;
 using Test.EntityFramework;
+using AutoMapper;
 
 namespace Test.Web.App_Start
 {
@@ -38,7 +39,10 @@ namespace Test.Web.App_Start
                 WithName.Default);
 
             container.RegisterType<IUnitOfWork, UnitOfWork>();
-           //UnitOfWork myInstance = container.Resolve<UnitOfWork>();
+            //UnitOfWork myInstance = container.Resolve<UnitOfWork>();
+
+            var mapper = MappingProfile.InitializeAutoMapper().CreateMapper();
+            container.RegisterInstance<IMapper>(mapper);
 
             container.RegisterType<IAuthenticationManager>(
                 new InjectionFactory(c => HttpContext.Current.GetOwinContext().Authentication));
