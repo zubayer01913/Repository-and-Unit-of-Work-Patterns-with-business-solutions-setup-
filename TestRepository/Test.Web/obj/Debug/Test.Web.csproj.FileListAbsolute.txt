@@ -168,3 +168,7 @@ C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-so
 C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Web\obj\Debug\Test.Web.csprojResolveAssemblyReference.cache
 C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Web\obj\Debug\Test.Web.dll
 C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Web\obj\Debug\Test.Web.pdb
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Web\bin\AutoMapper.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Web\bin\AutoMapper.xml
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Web\bin\Elmah.dll
+C:\Users\osik\Source\Repos\Repository-and-Unit-of-Work-Patterns-with-business-solutions-setup-\TestRepository\Test.Web\bin\Elmah.Mvc.dll

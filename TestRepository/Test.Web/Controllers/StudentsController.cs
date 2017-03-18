@@ -1,38 +1,39 @@
 ﻿using AutoMapper;
-using System.Threading.Tasks;
+using System;
+using System.Web.Configuration;
 using System.Web.Mvc;
 using Test.Core.Model;
 using Test.EntityFramework;
 using Test.Service.Students;
-using Test.Web.App_Start;
 using Test.Web.ViewModels;
 
 namespace Test.Web.Controllers
 {
     public class StudentsController : Controller
     {
-        private readonly IUnitOfWork _unitOfWork;
         private readonly IStudentAppService _studentAppService;
         private readonly IMapper _mapper;
-        public StudentsController(IUnitOfWork myInstance, IStudentAppService studentAppService, IMapper mapper)
+        private readonly UnitOfWork _unitOfWork;
+        public StudentsController(UnitOfWork unitOfWork, IStudentAppService studentAppService, IMapper mapper)
         {
-            _unitOfWork = myInstance;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
             _studentAppService = studentAppService;
-        }       
+        }    
+           
         [HttpGet]
         public ActionResult Index()
         {
+            
             var dd = new Student();
             _mapper.Map<Student, StudentViewModel>(dd);
+           // int ddd = Convert.ToInt32("dddddd");
             // same work only uniofwork and repositroy
-
-            //var model = _unitOfWork.StudentRepository.FindAll();
+            var model = _unitOfWork.Students.FindAll();
 
             //same work only service and repository
-
             // var model = _studentAppService.GetAll();          
-            return View();
+            return View(model);
         }
     }
 }

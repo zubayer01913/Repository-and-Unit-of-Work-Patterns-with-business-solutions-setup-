@@ -38,8 +38,8 @@ namespace Test.Web.App_Start
                 WithMappings.FromMatchingInterface,
                 WithName.Default);
 
-            container.RegisterType<IUnitOfWork, UnitOfWork>();
-            //UnitOfWork myInstance = container.Resolve<UnitOfWork>();
+            //container.RegisterType<IUnitOfWork, UnitOfWork>();
+            UnitOfWork unitOfWork = container.Resolve<UnitOfWork>();
 
             var mapper = MappingProfile.InitializeAutoMapper().CreateMapper();
             container.RegisterInstance<IMapper>(mapper);
